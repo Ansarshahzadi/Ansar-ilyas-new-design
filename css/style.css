@@ -9,16 +9,16 @@ body{
 }
 
 
-.pics {
-    height: 350px;
+.img-wrapper {
+   
     width: 100%;
-    padding-left: 20px;
-    /* border: 1px solid black; */
+  
+    border: 1px solid black;
 }
 
 .pics>img { 
     width: 100%;
-    height: 350px;  
+    height: 100%;  
     object-fit: contain;
 }
 
