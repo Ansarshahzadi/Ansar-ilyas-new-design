@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-size: 20px;
+}
+
+
 .pics {
     height: 350px;
-    width: 320px;
+    width: 100%;
     padding-left: 20px;
     /* border: 1px solid black; */
 }
@@ -17,18 +22,9 @@
     object-fit: contain;
 }
 
-.first,
-.second {
-    width: 300px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 100px;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.btn{
+    background-color: aliceblue;
+    color: black;
 }
 
 a {
@@ -47,3 +43,6 @@ a {
     width: 160px;
 }
 
+.icon{
+    margin: 5px;
+}
