@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: rgb(11, 11, 115);
+}
+.LINE{
+    width: 50%;
+    color: red;
+}
+.img-wrapper{
+    height: 250px;
+    width: 100%;
+}
+.img-wrapper img{
+    height: 230px;
+    width: 100%;
+    border-radius: 10px; 
+    /* object-fit: contain; */
+}
+.btn1{
+    height: 40px;
+    width: 130px;
+    border-radius: 100px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
