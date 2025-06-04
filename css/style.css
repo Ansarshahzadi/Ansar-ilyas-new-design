@@ -10,12 +10,20 @@ body{
 .sticky-top {
   z-index: 1020; /* Higher than other elements if needed */
 }
+.social-icon a {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(70, 147, 247);
+    color: rgb(70, 147, 247);
+    font-size: 18px;
+    margin-right: 10px; text-decoration: none;
+}
 
-
-.img-wrapper {
-   
-    width: 100%;
-  
+.img-wrapper {   
+    width: 100%;  
     border: 1px solid black;
 }
 
