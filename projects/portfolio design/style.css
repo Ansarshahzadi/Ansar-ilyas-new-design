@@ -1,8 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-}
-.container{
-    background-color: rgb(11, 11, 115);
+    font-size: 20px;
 }
 .LINE{
     width: 50%;
