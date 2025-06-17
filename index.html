@@ -1,374 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-  <link rel="shortcut icon" href="./images/testimonials/android-icon-72x72.png" type="image/x-icon" />
-  <link rel="stylesheet" href="./css/getbootstrap.css" />
-  <title>Ansar_folio_design</title>
-  <style>
-    #backToTopBtn {
-      position: fixed;
-      bottom: 100px;
-      right: 20px;
-      display: block;
-      z-index: 1000;
-    }
-  </style>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/testimonials/android-icon-72x72.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/getbootstrap.css" />
+    <title>Ansar_folio_design</title>
+    <style>
+      #backToTopBtn {
+        position: fixed;
+        bottom: 100px;
+        right: 20px;
+        display: block;
+        z-index: 1000;
+      }
+    </style>
 
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      section {
+        padding: 100px 0;
+        height: 100vh;
+        border-bottom: 1px solid #ccc;
+      }
+      .navbar-nav .nav-link.active {
+        color: #0d6efd !important; /* Bootstrap Primary */
+        font-weight: bold;
+      }
+    </style>
+  </head>
 
-  </style>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="70" tabindex="0">
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg py-3 px-5 position-sticky top-0 bg-body-tertiary" style="z-index: 1030;"
-    id="navbar-example">
-    <a href="" class="text-decoration-none px-5 text-black"><img
-        src="./images/testimonials/Screenshot 2025-06-12 002937.png" height="50px" width="50px"
-        class="rounded-circle me-3" alt="" />Ansar Ilyas</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item text-center">
-          <a class="nav-link my-2 mx-3 text-uppercase active" aria-current="page" href="#1st">Home</a>
-        </li>
-        <li class="nav-item text-center">
-          <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#2nd">Project</a>
-        </li>
-        <li class="nav-item text-center">
-          <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#3rd">Services</a>
-        </li>
-        <li class="nav-item text-center">
-          <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#4th">Skills</a>
-        </li>
-        <li class="nav-item text-center">
-          <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#5th">Testimonials</a>
-        </li>
-        <li class="nav-item text-center">
-          <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#6th">Contact
-          </a>
-        </li>
-      </ul>
-      <div>
-        <button type="button" class="btn btn-primary" onclick="location.href='mailto:ansarilyas.itroots@gmail.com'">
-          Contact Us
-        </button>
-      </div>
-    </div>
-  </nav>
-  <!-- Home section -->
-  <div class="section-1 bg-body-tertiary" id="1st">
-    <div class="container rounded-5">
-      <div class="row">
-        <div class="col-lg-7 py-5 ps-5">
-          <h1 class="my-5 fw-bold">
-            HEY &#x1F44B;, I AM ANSAR ILYAS FRONTEND DEVELOPER
-          </h1>
-          <p class="my-5 fs-5">
-            I am passionate for building responsive, user-friendly websites
-            using HTML, CSS, JavaScript, and frameworks like React. I'm
-            currently learning backend development with Node.js and exploring
-            full-stack project building. I created this website to showcase my
-            learning journey, share projects, and connect with others in tech.
-          </p>
-          <div class="btn btn-primary p-3 px-5 rounded-5">
-            <a href="" class="text-decoration-none text-white" target="_blank" download>
-              Download CV
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example"
+    data-bs-offset="70"
+    tabindex="0"
+  >
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg py-3 px-5 position-sticky top-0 bg-body-tertiary"
+      style="z-index: 1030"
+      id="navbar-example"
+    >
+      <a href="" class="text-decoration-none px-5 text-black"
+        ><img
+          src="./images/testimonials/Screenshot 2025-06-12 002937.png"
+          height="50px"
+          width="50px"
+          class="rounded-circle me-3"
+          alt=""
+        />Ansar Ilyas</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item text-center">
+            <a
+              class="nav-link my-2 mx-3 text-uppercase"
+              aria-current="page"
+              href="#1st"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              class="nav-link my-2 mx-3 text-uppercase"
+              aria-current="page"
+              href="#2nd"
+              >Project</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              class="nav-link my-2 mx-3 text-uppercase"
+              aria-current="page"
+              href="#3rd"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              class="nav-link my-2 mx-3 text-uppercase"
+              aria-current="page"
+              href="#4th"
+              >Skills</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              class="nav-link my-2 mx-3 text-uppercase"
+              aria-current="page"
+              href="#5th"
+              >Testimonials</a
+            >
+          </li>
+          <li class="nav-item text-center">
+            <a
+              class="nav-link my-2 mx-3 text-uppercase"
+              aria-current="page"
+              href="#6th"
+              >Contact
             </a>
-          </div>
-        </div>
-        <div class="col-lg-5 p-5">
-          <img class="h-100 w-100 rounded" src="./images/testimonials//Screenshot 2025-06-12 061600.png" alt="" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Projects section -->
-  <div class="section-2" id="2nd">
-    <div class="container p-5">
-      <div class="row flex-sm-column-reverse flex-md-row">
-        <div class="col">
-          <h2 class="">Projects</h2>
-          <p class="fs-5">
-            Some of the amazing projects made with the Bootstrap version-5 are
-            here. Let see:
-          </p>
+          </li>
+        </ul>
+        <div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            onclick="location.href='mailto:ansarilyas.itroots@gmail.com'"
+          >
+            Contact Us
+          </button>
         </div>
       </div>
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active py-3 text-center fw-bold">
-            <div class="row">
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/furniture/index.html" target="_blank">
-                  <img src="./images/campanies/Furniture.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Furniture site</p>
-              </div>
-
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/portfolio design/index.html" target="_blank ">
-                  <img src="./images/campanies/course card.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Personal Portfolio</p>
-              </div>
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/figma template sushi/index.html" target="_blank">
-                  <img src="./images/campanies/sushi club.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Sushi Design</p>
-              </div>
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/Avatar Design/avater.html" target="_blank">
-                  <img src="./images/campanies/avatar.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Avatar Design</p>
-              </div>
+    </nav>
+    <!-- Home section -->
+    <div class="section-1 bg-body-tertiary" id="1st">
+      <div class="container rounded-5">
+        <div class="row">
+          <div class="col-lg-7 py-5 ps-5">
+            <h1 class="my-5 fw-bold">
+              HEY &#x1F44B;, I AM ANSAR ILYAS FRONTEND DEVELOPER
+            </h1>
+            <p class="my-5 fs-5">
+              I am passionate for building responsive, user-friendly websites
+              using HTML, CSS, JavaScript, and frameworks like React. I'm
+              currently learning backend development with Node.js and exploring
+              full-stack project building. I created this website to showcase my
+              learning journey, share projects, and connect with others in tech.
+            </p>
+            <div class="btn btn-primary p-3 px-5 rounded-5">
+              <a
+                href="./cv.html"
+                class="text-decoration-none text-white"
+                target="_blank"
+                download
+              >
+                Download CV
+              </a>
             </div>
           </div>
-          <div class="carousel-item py-3 text-center fw-bold">
-            <div class="row">
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/furniture/index.html" target="_blank">
-                  <img src="./images/campanies/Furniture.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Furniture site</p>
-              </div>
-
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/portfolio design/index.html" target="_blank ">
-                  <img src="./images/campanies/course card.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Personal Portfolio</p>
-              </div>
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/figma template sushi/index.html" target="_blank">
-                  <img src="./images/campanies/sushi club.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Sushi Design</p>
-              </div>
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/Avatar Design/avater.html" target="_blank">
-                  <img src="./images/campanies/avatar.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Avatar Design</p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item py-3 text-center fw-bold">
-            <div class="row">
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/furniture/index.html" target="_blank">
-                  <img src="./images/campanies/Furniture.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Furniture site</p>
-              </div>
-
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/portfolio design/index.html" target="_blank ">
-                  <img src="./images/campanies/course card.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Personal Portfolio</p>
-              </div>
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/figma template sushi/index.html" target="_blank">
-                  <img src="./images/campanies/sushi club.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Sushi Design</p>
-              </div>
-              <div class="col-sm-12 col-md-3 mb-3">
-                <a href="./projects/Avatar Design/avater.html" target="_blank">
-                  <img src="./images/campanies/avatar.png" class="w-100 h-100" alt="" />
-                </a>
-                <p>Avatar Design</p>
-              </div>
-            </div>
+          <div class="col-lg-5 p-5">
+            <img
+              class="h-100 w-100 rounded"
+              src="./images/testimonials//Screenshot 2025-06-12 061600.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- services section -->
-  <div class="section-3 p-5 bg-body-tertiary" id="3rd">
-    <div class="container">
+    <!-- Projects section -->
+    <div class="section-2" id="2nd">
+      <div class="container p-5">
+        <div class="row flex-sm-column-reverse flex-md-row">
+          <div class="col">
+            <h2 class="">Projects</h2>
+            <p class="fs-5">
+              Some of the amazing projects made with the Bootstrap version-5 are
+              here. Let see:
+            </p>
+          </div>
+        </div>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active py-3 text-center fw-bold">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a href="./projects/furniture/index.html" target="_blank">
+                    <img
+                      src="./images/campanies/Furniture.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Furniture site</p>
+                </div>
+
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/portfolio design/index.html"
+                    target="_blank "
+                  >
+                    <img
+                      src="./images/campanies/course card.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Personal Portfolio</p>
+                </div>
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/figma template sushi/index.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/campanies/sushi club.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Sushi Design</p>
+                </div>
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/Avatar Design/avater.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/campanies/avatar.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Avatar Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item py-3 text-center fw-bold">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a href="./projects/furniture/index.html" target="_blank">
+                    <img
+                      src="./images/campanies/Furniture.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Furniture site</p>
+                </div>
+
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/portfolio design/index.html"
+                    target="_blank "
+                  >
+                    <img
+                      src="./images/campanies/course card.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Personal Portfolio</p>
+                </div>
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/figma template sushi/index.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/campanies/sushi club.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Sushi Design</p>
+                </div>
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/Avatar Design/avater.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/campanies/avatar.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Avatar Design</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item py-3 text-center fw-bold">
+              <div class="row">
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a href="./projects/furniture/index.html" target="_blank">
+                    <img
+                      src="./images/campanies/Furniture.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Furniture site</p>
+                </div>
+
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/portfolio design/index.html"
+                    target="_blank "
+                  >
+                    <img
+                      src="./images/campanies/course card.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Personal Portfolio</p>
+                </div>
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/figma template sushi/index.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/campanies/sushi club.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Sushi Design</p>
+                </div>
+                <div class="col-sm-12 col-md-3 mb-3">
+                  <a
+                    href="./projects/Avatar Design/avater.html"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/campanies/avatar.png"
+                      class="w-100 h-100"
+                      alt=""
+                    />
+                  </a>
+                  <p>Avatar Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- services section -->
+    <div class="section-3 p-5 bg-body-tertiary" id="3rd">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" style="color: rgb(12, 12, 82)">
+            <h2>My Services</h2>
+            <p class="fs-5">
+              Some of my common services are given below. Look at my services:
+            </p>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100 border-0 text-center d-flex flex-column">
+              <img
+                src="./images/campanies/Service Illustration.png"
+                class="w-100 p-3"
+                loading="lazy"
+                alt="Landing Page Designing"
+              />
+              <div class="card-body d-flex flex-column">
+                <h6 data-aos="fade-up" class="fw-bolder fs-5 my-3">
+                  Landing Page Designing
+                </h6>
+                <p class="fs-5 text-start mt-auto">
+                  I specialize in designing landing pages, portfolios, or small
+                  business sites. I deliver functional designs that reflect your
+                  brand.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100 border-0 text-center d-flex flex-column">
+              <img
+                src="./images/campanies/Style=01.png"
+                class="w-100 p-3"
+                loading="lazy"
+                alt="Static Page Designing"
+              />
+              <div class="card-body d-flex flex-column">
+                <h6 data-aos="fade-up" class="fw-bolder fs-5 my-3">
+                  Static Page Designing
+                </h6>
+                <p class="fs-5 text-start mt-auto">
+                  I design high-quality static pages that load fast, look great
+                  on all devices, and offer a seamless user experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-12 col-md-4 mb-4">
+            <div class="card h-100 border-0 text-center d-flex flex-column">
+              <img
+                src="./images/campanies/Style=03.png"
+                class="w-100 p-3"
+                loading="lazy"
+                alt="Frontend Design"
+              />
+              <div class="card-body d-flex flex-column">
+                <h6 data-aos="fade-up" class="fw-bolder fs-5 my-3">
+                  Frontend Design
+                </h6>
+                <p class="fs-5 text-start mt-auto">
+                  I create responsive frontend interfaces that look amazing and
+                  work flawlessly across all devices and browsers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- skills section -->
+    <div class="container p-5" id="4th">
+      <h2>MY SKILLS</h2>
       <div class="row">
-        <div class="col-12" style="color: rgb(12, 12, 82)">
-          <h2>My Services</h2>
-          <p class="fs-5">
-            Some of my common services are given below. Look at my services:
-          </p>
-        </div>
-
-        <!-- Card 1 -->
-        <div class="col-12 col-md-4 mb-4">
-          <div class="card h-100 border-0 text-center d-flex flex-column">
-            <img src="./images/campanies/Service Illustration.png" class="w-100 p-3" loading="lazy"
-              alt="Landing Page Designing" />
-            <div class="card-body d-flex flex-column">
-              <h6 data-aos="fade-up" class="fw-bolder fs-5 my-3">
-                Landing Page Designing
-              </h6>
-              <p class="fs-5 text-start mt-auto">
-                I specialize in designing landing pages, portfolios, or small business sites. I deliver functional
-                designs that reflect your brand.
-              </p>
-            </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between py-2">
+            <div class="fw-bold">HTML</div>
+            <div class="fw-bold">85%</div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar rounded-5 bg-primary"
+              role="progressbar"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 85%"
+            ></div>
           </div>
         </div>
-
-        <!-- Card 2 -->
-        <div class="col-12 col-md-4 mb-4">
-          <div class="card h-100 border-0 text-center d-flex flex-column">
-            <img src="./images/campanies/Style=01.png" class="w-100 p-3" loading="lazy" alt="Static Page Designing" />
-            <div class="card-body d-flex flex-column">
-              <h6 data-aos="fade-up" class="fw-bolder fs-5 my-3 ">
-                Static Page Designing
-              </h6>
-              <p class="fs-5 text-start mt-auto">
-                I design high-quality static pages that load fast, look great on all devices, and offer a seamless user
-                experience.
-              </p>
-            </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between py-2">
+            <div class="fw-bold">CSS</div>
+            <div class="fw-bold">80%</div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar rounded-5 border bg-primary"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 80%"
+            ></div>
           </div>
         </div>
-
-        <!-- Card 3 -->
-        <div class="col-12 col-md-4 mb-4">
-          <div class="card h-100 border-0 text-center d-flex flex-column">
-            <img src="./images/campanies/Style=03.png" class="w-100 p-3" loading="lazy" alt="Frontend Design" />
-            <div class="card-body d-flex flex-column">
-              <h6 data-aos="fade-up" class="fw-bolder fs-5 my-3 ">
-                Frontend Design
-              </h6>
-              <p class="fs-5 text-start mt-auto">
-                I create responsive frontend interfaces that look amazing and work flawlessly across all devices and
-                browsers.
-              </p>
-            </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between py-2">
+            <div class="fw-bold">Bootstrap</div>
+            <div class="fw-bold">75%</div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar rounded-5 border bg-primary"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 75%"
+            ></div>
           </div>
         </div>
-      </div>
-
-    </div>
-  </div>
-  <!-- skills section -->
-  <div class="container p-5" id="4th">
-    <h2>MY SKILLS</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="d-flex justify-content-between py-2">
-          <div class="fw-bold">HTML</div>
-          <div class="fw-bold">85%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar rounded-5 bg-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-            aria-valuemax="100" style="width: 85%"></div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="d-flex justify-content-between py-2">
-          <div class="fw-bold">CSS</div>
-          <div class="fw-bold">80%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar rounded-5 border bg-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-            aria-valuemax="100" style="width: 80%"></div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="d-flex justify-content-between py-2">
-          <div class="fw-bold">Bootstrap</div>
-          <div class="fw-bold">75%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar rounded-5 border bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-            aria-valuemax="100" style="width: 75%"></div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="d-flex justify-content-between py-2">
-          <div class="fw-bold">Javascript</div>
-          <div class="fw-bold">45%</div>
-        </div>
-        <div class="progress">
-          <div class="progress-bar rounded-5 border bg-primary" role="progressbar" aria-valuenow="45" aria-valuemin="0"
-            aria-valuemax="100" style="width: 45%"></div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-between py-2">
+            <div class="fw-bold">Javascript</div>
+            <div class="fw-bold">45%</div>
+          </div>
+          <div class="progress">
+            <div
+              class="progress-bar rounded-5 border bg-primary"
+              role="progressbar"
+              aria-valuenow="45"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 45%"
+            ></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Testimonial section -->
-  <div class="section-4 bg-body-tertiary" id="5th">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="px-5">Testimonials</h2>
+    <!-- Testimonial section -->
+    <div class="section-4 bg-body-tertiary" id="5th">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="px-5">Testimonials</h2>
+          </div>
         </div>
-      </div>
 
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="font-size: 20px">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row p-5">
-              <div class="col-2">
-                <img src="./images/testimonials/kiran1.png" class="w-100 h-100 rounded-circle" alt="" />
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          style="font-size: 20px"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row p-5">
+                <div class="col-2">
+                  <img
+                    src="./images/testimonials/kiran1.png"
+                    class="w-100 h-100 rounded-circle"
+                    alt=""
+                  />
+                </div>
+                <div class="col-10">
+                  <p>I am Kiran Shahzadi!</p>
+                  <p>
+                    I just wanted to say I’m really impressed with your work as
+                    a web developer. Your designs look clean, and I can tell
+                    you’re putting effort into making your sites responsive and
+                    user-friendly. It’s great to see how much you’ve improved.
+                  </p>
+                </div>
               </div>
-              <div class="col-10">
-                <p>I am Kiran Shahzadi!</p>
-                <p>
-                  I just wanted to say I’m really impressed with your work as
-                  a web developer. Your designs look clean, and I can tell
-                  you’re putting effort into making your sites responsive and
-                  user-friendly. It’s great to see how much you’ve improved.
-                </p>
+            </div>
+            <div class="carousel-item">
+              <div class="row p-5">
+                <div class="col-2">
+                  <img
+                    class="h-100 w-100 rounded rounded-circle"
+                    src="./images/testimonials/jaweria.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-10">
+                  <p>I'm Jaweria Noor</p>
+                  <p>
+                    I’ve been checking out your recent web development projects
+                    and honestly — great work! Your attention to detail really
+                    stands out, and the way you’ve been implementing different
+                    components shows that you're learning fast and applying what
+                    you know effectively.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row p-5">
+                <div class="col-2">
+                  <img
+                    class="h-100 w-100 rounded rounded-circle"
+                    src="./images/testimonials/sonia.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="col-10">
+                  <p>I'm Sonia Khan</p>
+                  <p>
+                    I’ve been really impressed with how far you’ve come as a web
+                    developer. You’ve clearly put in time to understand both the
+                    design and functionality sides of web development, and it
+                    shows in your work. Your UI choices are clean, and your code
+                    structure seems well thought-out.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row p-5">
-              <div class="col-2">
-                <img class="h-100 w-100 rounded rounded-circle" src="./images/testimonials/jaweria.jpg" alt="" />
-              </div>
-              <div class="col-10">
-                <p>I'm Jaweria Noor</p>
-                <p>
-                  I’ve been checking out your recent web development projects
-                  and honestly — great work! Your attention to detail really
-                  stands out, and the way you’ve been implementing different
-                  components shows that you're learning fast and applying what
-                  you know effectively.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row p-5">
-              <div class="col-2">
-                <img class="h-100 w-100 rounded rounded-circle" src="./images/testimonials/sonia.jpg" alt="" />
-              </div>
-              <div class="col-10">
-                <p>I'm Sonia Khan</p>
-                <p>
-                  I’ve been really impressed with how far you’ve come as a web
-                  developer. You’ve clearly put in time to understand both the
-                  design and functionality sides of web development, and it
-                  shows in your work. Your UI choices are clean, and your code
-                  structure seems well thought-out.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -378,168 +596,231 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button> -->
+        </div>
+
+        <!-- footer section -->
+      </div>
+    </div>
+    <!-- Contact section -->
+    <section id="6th" class="p-5">
+      <div class="container">
+        <h2 data-aos="fade-up" class="fs-2 p-5">CONTACT US</h2>
+
+        <div class="row px-5" id="5th">
+          <div class="col-md-6">
+            <form action="\">
+              <input
+                data-aos="fade-up"
+                type="text"
+                placeholder="Your name"
+                class="form-control rounded-0 mb-3 p-3 border-0 shadow"
+              />
+              <input
+                data-aos="fade-up"
+                type="tel"
+                placeholder="Phone Number"
+                class="form-control rounded-0 mb-3 p-3 shadow border-0"
+              />
+              <input
+                data-aos="fade-up"
+                type="email"
+                placeholder="Email"
+                class="form-control rounded-0 mb-3 p-3 shadow border-0"
+              />
+              <textarea
+                data-aos="fade-up"
+                name=""
+                placeholder="Messege"
+                style="height: 150px"
+                class="form-control rounded-0 p-3 shadow border-0"
+              ></textarea>
+              <a href="" class="text-decoration-none px-2">
+                <div
+                  data-aos="fade-up"
+                  class="btn btn-primary my-3 py-2 px-5 text-white"
+                >
+                  Send
+                </div>
+              </a>
+            </form>
+          </div>
+          <div class="col-md-6 ">
+            <iframe
+              class="w-100 h-100 mb-3 bg-white border-0"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.775281722194!2d71.5295182738037!3d29.66829463629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b0d5e81bfc16f%3A0x6335ebeec830dd35!2sAGS%20Amina%20Girls%20Higher%20Secondary%20school!5e0!3m2!1sen!2s!4v1738283748633!5m2!1sen!2s"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <div
+      class="container-fluid py-5 mt-5"
+      id="7th"
+      style="background-color: rgba(19, 34, 57, 1)"
+    >
+      <div class="container w-75 mx-auto mb-5">
+        <div class="row w-75 m-auto" data-aos="fade-up">
+          <div class="col-md-6 text-center align-content-center">
+            <a href="" class="text-decoration-none text-white fw-bold">
+              <img
+                src="./images/arts/phone-line.png"
+                alt=""
+                class="me-4"
+              />Call: +923287315641
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <a href="" class="text-decoration-none text-white fw-bold">
+              <img
+                src="./images/arts/mail-fill.png"
+                alt=""
+                class="me-4"
+              />ansarilyas.itroots@gmail.com
+            </a>
+          </div>
+        </div>
       </div>
 
-      <!-- footer section -->
-    </div>
-  </div>
-  <!-- Contact section -->
-  <section id="6th">
-    <div class="container">
-      <h2 data-aos="fade-up" class="fs-2 px-5 pt-5">CONTACT US</h2>
-
-      <div class="row p-5" id="5th">
+      <div class="row px-4">
         <div class="col-md-6">
-          <input data-aos="fade-up" type="text" placeholder="Your name"
-            class="form-control rounded-0 mb-3 p-3 border-0 shadow" />
-          <input data-aos="fade-up" type="tel" placeholder="Phone Number"
-            class="form-control rounded-0 mb-3 p-3 shadow border-0" />
-          <input data-aos="fade-up" type="email" placeholder="Email"
-            class="form-control rounded-0 mb-3 p-3 shadow border-0" />
-          <textarea data-aos="fade-up" name="" placeholder="Messege" style="height: 150px"
-            class="form-control rounded-0 p-3 shadow border-0"></textarea>
-          <a href="" class="text-decoration-none px-2">
-            <div data-aos="fade-up" class="btn btn-primary my-3 py-2 px-5 text-white">
-              Send
+          <h3 data-aos="fade-up" class="text-white ps-5 fw-bold mb-3">
+            Quick Link
+          </h3>
+          <div class="row ps-5" data-aos="fade-up">
+            <div class="col-sm-6 pb-4">
+              <a
+                href="#carouselExampleSlidesOnly"
+                class="text-decoration-none text-center text-white"
+                >Home
+              </a>
+            </div>
+            <div class="col-sm-4 pb-4">
+              <a href="#3rd" class="text-decoration-none text-center text-white"
+                >About
+              </a>
+            </div>
+            <div class="col-sm-6 pb-4">
+              <a href="#4th" class="text-decoration-none text-center text-white"
+                >Projects
+              </a>
+            </div>
+            <div class="col-sm-6 pb-4">
+              <a href="#5th" class="text-decoration-none text-center text-white"
+                >Services
+              </a>
+            </div>
+            <div class="col-sm-6 pb-4">
+              <a href="#6th" class="text-decoration-none text-center text-white"
+                >Contact
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 text-white fw-bold mb-3 px-5">
+          <h3 data-aos="fade-up" class="fw-bold text-white mb-3">
+            Subscribe with name
+          </h3>
+          <input
+            data-aos="fade-up"
+            type="text"
+            placeholder="Your name"
+            class="form-control rounded-0 mb-1 w-75 p-3 border-0 shadow-none"
+          />
+          <a href="" class="text-decoration-none">
+            <div
+              data-aos="fade-up"
+              class="btn btn-primary my-3 py-2 px-4 text-white"
+            >
+              Subscribe
             </div>
           </a>
-        </div>
-        <div class="col-md-6">
-          <iframe class="w-100 h-100 mb-3 bg-white border-0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.775281722194!2d71.5295182738037!3d29.66829463629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b0d5e81bfc16f%3A0x6335ebeec830dd35!2sAGS%20Amina%20Girls%20Higher%20Secondary%20school!5e0!3m2!1sen!2s!4v1738283748633!5m2!1sen!2s"
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- footer section -->
-  <div class="container-fluid py-5" id="7th" style="background-color: rgba(19, 34, 57, 1)">
-    <div class="container w-75 mx-auto mb-5">
-      <div class="row w-75 m-auto" data-aos="fade-up">
-        <div class="col-md-6 text-center align-content-center">
-          <a href="" class="text-decoration-none text-white fw-bold">
-            <img src="./images/arts/phone-line.png" alt="" class="me-4" />Call: +923287315641
-          </a>
-        </div>
-        <div class="col-md-6 text-center">
-          <a href="" class="text-decoration-none text-white fw-bold">
-            <img src="./images/arts/mail-fill.png" alt="" class="me-4" />ansarilyas.itroots@gmail.com
-          </a>
+          <div data-aos="fade-up" class="social-icon d-flex">
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="row px-4">
-      <div class="col-md-6">
-        <h3 data-aos="fade-up" class="text-white ps-5 fw-bold mb-3">
-          Quick Link
-        </h3>
-        <div class="row ps-5" data-aos="fade-up">
-          <div class="col-sm-6 pb-4">
-            <a href="#carouselExampleSlidesOnly" class="text-decoration-none text-center text-white">Home
-            </a>
+    <div class="section-6">
+      <div class="line"></div>
+      <div class="container">
+        <div class="row my-3">
+          <div class="col-12 fs-5 col-md-9 text-capitalize fw-bold">
+            2025 Redesign by pladges student @AGS_ADP_Senior
           </div>
-          <div class="col-sm-4 pb-4">
-            <a href="#3rd" class="text-decoration-none text-center text-white">About
-            </a>
+          <div class="col-12 col-md-3 fw-bold fs-5">
+            Student:Ansar Ilyas &#x1F44B;
           </div>
-          <div class="col-sm-6 pb-4">
-            <a href="#4th" class="text-decoration-none text-center text-white">Projects
-            </a>
-          </div>
-          <div class="col-sm-6 pb-4">
-            <a href="#5th" class="text-decoration-none text-center text-white">Services
-            </a>
-          </div>
-          <div class="col-sm-6 pb-4">
-            <a href="#6th" class="text-decoration-none text-center text-white">Contact
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 text-white fw-bold mb-3 px-5">
-        <h3 data-aos="fade-up" class="fw-bold text-white mb-3">
-          Subscribe with name
-        </h3>
-        <input data-aos="fade-up" type="text" placeholder="Your name"
-          class="form-control rounded-0 mb-1 w-75 p-3 border-0 shadow-none" />
-        <a href="" class="text-decoration-none">
-          <div data-aos="fade-up" class="btn btn-primary my-3 py-2 px-4 text-white">
-            Subscribe
-          </div>
-        </a>
-        <div data-aos="fade-up" class="social-icon d-flex">
-          <a href="">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-          <a href="">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a href="">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a href="">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="section-6">
-    <div class="line"></div>
-    <div class="container">
-      <div class="row my-3">
-        <div class="col-12 fs-5 col-md-9 text-capitalize fw-bold">
-          2025 Redesign by pladges student @AGS_ADP_Senior
-        </div>
-        <div class="col-12 col-md-3 fw-bold fs-5">
-          Student:Ansar Ilyas &#x1F44B;
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- WhatsApp Button -->
-  <a href="https://wa.me/+923287315641"
-    class="btn btn-primary rounded-pill position-fixed d-flex align-items-center justify-content-center" style="
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/+923287315641"
+      class="btn btn-success rounded-pill position-fixed d-flex align-items-center justify-content-center"
+      style="
         bottom: 20px;
         right: 20px;
         z-index: 9999;
         padding: 10px 2px 10px 10px;
-      " target="_blank">
-    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="white" class="me-2 bi bi-whatsapp"
-      viewBox="0 0 16 16">
-      <path
-        d="M13.601 2.326A7.927 7.927 0 0 0 8 0C3.58 0 0 3.582 0 8a7.952 7.952 0 0 0 1.09 4.042L0 16l4.187-1.095A7.952 7.952 0 0 0 8 16c4.418 0 8-3.582 8-8a7.927 7.927 0 0 0-2.399-5.674zm-5.6 12.144a6.54 6.54 0 0 1-3.327-.894l-.237-.14-2.482.65.664-2.418-.154-.248A6.56 6.56 0 0 1 1.46 8a6.536 6.536 0 0 1 6.54-6.538A6.53 6.53 0 0 1 14.538 8c0 3.613-2.945 6.538-6.537 6.538z" />
-      <path
-        d="M11.093 9.408c-.15-.075-.891-.438-1.03-.489-.138-.051-.239-.075-.34.075s-.39.489-.478.59c-.088.102-.175.113-.325.038-.15-.075-.633-.234-1.205-.746-.445-.396-.745-.888-.832-1.038-.088-.15-.009-.23.066-.304.068-.068.15-.176.226-.264.075-.088.1-.15.15-.25.05-.1.025-.188-.012-.263-.038-.075-.34-.822-.466-1.126-.122-.294-.246-.254-.34-.26l-.29-.005c-.1 0-.263.037-.4.188s-.525.513-.525 1.25.538 1.45.613 1.55c.075.1 1.06 1.618 2.57 2.27.359.154.639.246.856.315.36.115.69.099.95.06.29-.043.891-.363 1.016-.715.125-.352.125-.654.088-.715-.037-.062-.136-.1-.286-.175z" />
-    </svg>
-  </a>
-  <!-- back to top button -->
-  <button id="backToTopBtn" class="btn btn-primary rounded-circle p-3">
-    <img src="./images/arts/arrow-up-long-fill.png">
-  </button>
+      "
+      target="_blank"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="44"
+        height="44"
+        fill="white"
+        class="me-2 bi bi-whatsapp"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M13.601 2.326A7.927 7.927 0 0 0 8 0C3.58 0 0 3.582 0 8a7.952 7.952 0 0 0 1.09 4.042L0 16l4.187-1.095A7.952 7.952 0 0 0 8 16c4.418 0 8-3.582 8-8a7.927 7.927 0 0 0-2.399-5.674zm-5.6 12.144a6.54 6.54 0 0 1-3.327-.894l-.237-.14-2.482.65.664-2.418-.154-.248A6.56 6.56 0 0 1 1.46 8a6.536 6.536 0 0 1 6.54-6.538A6.53 6.53 0 0 1 14.538 8c0 3.613-2.945 6.538-6.537 6.538z"
+        />
+        <path
+          d="M11.093 9.408c-.15-.075-.891-.438-1.03-.489-.138-.051-.239-.075-.34.075s-.39.489-.478.59c-.088.102-.175.113-.325.038-.15-.075-.633-.234-1.205-.746-.445-.396-.745-.888-.832-1.038-.088-.15-.009-.23.066-.304.068-.068.15-.176.226-.264.075-.088.1-.15.15-.25.05-.1.025-.188-.012-.263-.038-.075-.34-.822-.466-1.126-.122-.294-.246-.254-.34-.26l-.29-.005c-.1 0-.263.037-.4.188s-.525.513-.525 1.25.538 1.45.613 1.55c.075.1 1.06 1.618 2.57 2.27.359.154.639.246.856.315.36.115.69.099.95.06.29-.043.891-.363 1.016-.715.125-.352.125-.654.088-.715-.037-.062-.136-.1-.286-.175z"
+        />
+      </svg>
+    </a>
+    <!-- back to top button -->
+    <button id="backToTopBtn" class="btn btn-success rounded-circle p-3">
+      <img src="./images/arts/arrow-up-long-fill.png" />
+    </button>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-  <script>
-    const btn = document.getElementById("backToTopBtn"); // ✅ fixed ID
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const btn = document.getElementById("backToTopBtn"); // ✅ fixed ID
 
-    window.onscroll = function () {
-      if (document.documentElement.scrollTop > 200) {
-        btn.style.display = "block"; // ✅ show when scrolled
-      } else {
-        btn.style.display = "none"; // ✅ hide when at top
-      }
-    };
+      window.onscroll = function () {
+        if (document.documentElement.scrollTop > 200) {
+          btn.style.display = "block"; // ✅ show when scrolled
+        } else {
+          btn.style.display = "none"; // ✅ hide when at top
+        }
+      };
 
-    btn.addEventListener("click", function () {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-  </script>
-
-</body>
-
+      btn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+  </body>
 </html>
