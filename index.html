@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="./css/style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -15,6 +15,8 @@
       href="./images/testimonials/android-icon-72x72.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="stylesheet" href="./css/getbootstrap.css" />
     <title>Ansar_folio_design</title>
     <style>
@@ -31,13 +33,16 @@
       html {
         scroll-behavior: smooth;
       }
+
       section {
         padding: 100px 0;
         height: 100vh;
         border-bottom: 1px solid #ccc;
       }
+
       .navbar-nav .nav-link.active {
-        color: #0d6efd !important; /* Bootstrap Primary */
+        color: #0d6efd !important;
+        /* Bootstrap Primary */
         font-weight: bold;
       }
     </style>
@@ -49,21 +54,26 @@
     data-bs-offset="70"
     tabindex="0"
   >
-    <!-- navbar -->
+    <!-- Your Navbar -->
     <nav
       class="navbar navbar-expand-lg py-3 px-5 position-sticky top-0 bg-body-tertiary"
       style="z-index: 1030"
       id="navbar-example"
     >
-      <a href="" class="text-decoration-none px-5 text-black"
-        ><img
+          <a
+            href=""
+            class="text-decoration-none fw-bold fs-3 text-black"
+            style="font-family: 'Brush Script MT', cursive"
+          >        <img
           src="./images/testimonials/Screenshot 2025-06-12 002937.png"
           height="50px"
           width="50px"
-          class="rounded-circle me-3"
+          class="rounded-circle me-3 ms-5"
           alt=""
-        />Ansar Ilyas</a
-      >
+        />
+        Ansar Ilyas
+      </a>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -75,61 +85,36 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div
         class="collapse navbar-collapse justify-content-end"
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item text-center">
-            <a
-              class="nav-link my-2 mx-3 text-uppercase"
-              aria-current="page"
-              href="#1st"
-              >Home</a
-            >
+            <a class="nav-link my-2 mx-3 text-uppercase" href="#1st">Home</a>
           </li>
           <li class="nav-item text-center">
-            <a
-              class="nav-link my-2 mx-3 text-uppercase"
-              aria-current="page"
-              href="#2nd"
-              >Project</a
-            >
+            <a class="nav-link my-2 mx-3 text-uppercase" href="#2nd">Project</a>
           </li>
           <li class="nav-item text-center">
-            <a
-              class="nav-link my-2 mx-3 text-uppercase"
-              aria-current="page"
-              href="#3rd"
+            <a class="nav-link my-2 mx-3 text-uppercase" href="#3rd"
               >Services</a
             >
           </li>
           <li class="nav-item text-center">
-            <a
-              class="nav-link my-2 mx-3 text-uppercase"
-              aria-current="page"
-              href="#4th"
-              >Skills</a
-            >
+            <a class="nav-link my-2 mx-3 text-uppercase" href="#4th">Skills</a>
           </li>
           <li class="nav-item text-center">
-            <a
-              class="nav-link my-2 mx-3 text-uppercase"
-              aria-current="page"
-              href="#5th"
+            <a class="nav-link my-2 mx-3 text-uppercase" href="#5th"
               >Testimonials</a
             >
           </li>
           <li class="nav-item text-center">
-            <a
-              class="nav-link my-2 mx-3 text-uppercase"
-              aria-current="page"
-              href="#6th"
-              >Contact
-            </a>
+            <a class="nav-link my-2 mx-3 text-uppercase" href="#6th">Contact</a>
           </li>
         </ul>
-        <div>
+        <div class="pe-5">
           <button
             type="button"
             class="btn btn-primary"
@@ -140,12 +125,13 @@
         </div>
       </div>
     </nav>
+
     <!-- Home section -->
-    <div class="section-1 bg-body-tertiary" id="1st">
-      <div class="container rounded-5">
+    <section class="section-1 bg-body-tertiary h-100 border-0" id="1st">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-7 py-5 ps-5">
-            <h1 class="my-5 fw-bold">
+          <div class="col-lg-7 ps-5">
+            <h1 class="mb-5 fw-bold">
               HEY &#x1F44B;, I AM ANSAR ILYAS FRONTEND DEVELOPER
             </h1>
             <p class="my-5 fs-5">
@@ -160,13 +146,12 @@
                 href="./cv.html"
                 class="text-decoration-none text-white"
                 target="_blank"
-                download
               >
                 Download CV
               </a>
             </div>
           </div>
-          <div class="col-lg-5 p-5">
+          <div class="col-lg-5 px-5">
             <img
               class="h-100 w-100 rounded"
               src="./images/testimonials//Screenshot 2025-06-12 061600.png"
@@ -175,9 +160,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Projects section -->
-    <div class="section-2" id="2nd">
+    <section class="section-2 h-100 border-0" id="2nd">
       <div class="container p-5">
         <div class="row flex-sm-column-reverse flex-md-row">
           <div class="col">
@@ -359,9 +344,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- services section -->
-    <div class="section-3 p-5 bg-body-tertiary" id="3rd">
+    <section class="section-3 p-5 bg-body-tertiary h-100 border-0" id="3rd">
       <div class="container">
         <div class="row">
           <div class="col-12" style="color: rgb(12, 12, 82)">
@@ -436,9 +421,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- skills section -->
-    <div class="container p-5" id="4th">
+    <section class="container h-100 p-5 border-0" id="4th">
       <h2>MY SKILLS</h2>
       <div class="row">
         <div class="col-md-6">
@@ -506,9 +491,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Testimonial section -->
-    <div class="section-4 bg-body-tertiary" id="5th">
+    <section class="h-100 bg-body-tertiary border-0" id="5th">
       <div class="container py-5">
         <div class="row">
           <div class="col-12">
@@ -600,9 +585,9 @@
 
         <!-- footer section -->
       </div>
-    </div>
+    </section>
     <!-- Contact section -->
-    <section id="6th" class="p-5">
+    <section id="6th" class="p-5 h-100 border-0">
       <div class="container">
         <h2 data-aos="fade-up" class="fs-2 p-5">CONTACT US</h2>
 
@@ -644,7 +629,7 @@
               </a>
             </form>
           </div>
-          <div class="col-md-6 ">
+          <div class="col-md-6">
             <iframe
               class="w-100 h-100 mb-3 bg-white border-0"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.775281722194!2d71.5295182738037!3d29.66829463629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b0d5e81bfc16f%3A0x6335ebeec830dd35!2sAGS%20Amina%20Girls%20Higher%20Secondary%20school!5e0!3m2!1sen!2s!4v1738283748633!5m2!1sen!2s"
@@ -656,8 +641,8 @@
       </div>
     </section>
     <!-- footer section -->
-    <div
-      class="container-fluid py-5 mt-5"
+    <section
+      class="container-fluid py-5 h-100 border-0"
       id="7th"
       style="background-color: rgba(19, 34, 57, 1)"
     >
@@ -683,83 +668,91 @@
           </div>
         </div>
       </div>
-
-      <div class="row px-4">
-        <div class="col-md-6">
-          <h3 data-aos="fade-up" class="text-white ps-5 fw-bold mb-3">
-            Quick Link
-          </h3>
-          <div class="row ps-5" data-aos="fade-up">
-            <div class="col-sm-6 pb-4">
-              <a
-                href="#carouselExampleSlidesOnly"
-                class="text-decoration-none text-center text-white"
-                >Home
-              </a>
-            </div>
-            <div class="col-sm-4 pb-4">
-              <a href="#3rd" class="text-decoration-none text-center text-white"
-                >About
-              </a>
-            </div>
-            <div class="col-sm-6 pb-4">
-              <a href="#4th" class="text-decoration-none text-center text-white"
-                >Projects
-              </a>
-            </div>
-            <div class="col-sm-6 pb-4">
-              <a href="#5th" class="text-decoration-none text-center text-white"
-                >Services
-              </a>
-            </div>
-            <div class="col-sm-6 pb-4">
-              <a href="#6th" class="text-decoration-none text-center text-white"
-                >Contact
-              </a>
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-6">
+            <h3 data-aos="fade-up" class="text-white ps-5 fw-bold mb-3">
+              Quick Link
+            </h3>
+            <div class="row ps-5" data-aos="fade-up">
+              <div class="col-sm-6 pb-4">
+                <a
+                  href="#carouselExampleSlidesOnly"
+                  class="text-decoration-none text-center text-white"
+                  >Home
+                </a>
+              </div>
+              <div class="col-sm-4 pb-4">
+                <a
+                  href="#3rd"
+                  class="text-decoration-none text-center text-white"
+                  >About
+                </a>
+              </div>
+              <div class="col-sm-6 pb-4">
+                <a
+                  href="#4th"
+                  class="text-decoration-none text-center text-white"
+                  >Projects
+                </a>
+              </div>
+              <div class="col-sm-6 pb-4">
+                <a
+                  href="#5th"
+                  class="text-decoration-none text-center text-white"
+                  >Services
+                </a>
+              </div>
+              <div class="col-sm-6 pb-4">
+                <a
+                  href="#6th"
+                  class="text-decoration-none text-center text-white"
+                  >Contact
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-6 text-white fw-bold mb-3 px-5">
-          <h3 data-aos="fade-up" class="fw-bold text-white mb-3">
-            Subscribe with name
-          </h3>
-          <input
-            data-aos="fade-up"
-            type="text"
-            placeholder="Your name"
-            class="form-control rounded-0 mb-1 w-75 p-3 border-0 shadow-none"
-          />
-          <a href="" class="text-decoration-none">
-            <div
+          <div class="col-md-6 text-white fw-bold mb-3 px-5">
+            <h3 data-aos="fade-up" class="fw-bold text-white mb-3">
+              Subscribe with name
+            </h3>
+            <input
               data-aos="fade-up"
-              class="btn btn-primary my-3 py-2 px-4 text-white"
-            >
-              Subscribe
+              type="text"
+              placeholder="Your name"
+              class="form-control rounded-0 mb-1 w-75 p-3 border-0 shadow-none"
+            />
+            <a href="" class="text-decoration-none">
+              <div
+                data-aos="fade-up"
+                class="btn btn-primary my-3 py-2 px-4 text-white"
+              >
+                Subscribe
+              </div>
+            </a>
+            <div data-aos="fade-up" class="social-icon d-flex">
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </div>
-          </a>
-          <div data-aos="fade-up" class="social-icon d-flex">
-            <a href="">
-              <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="section-6">
-      <div class="line"></div>
+    <section class="h-100 py-2 border-0">
       <div class="container">
-        <div class="row my-3">
+        <div class="row">
           <div class="col-12 fs-5 col-md-9 text-capitalize fw-bold">
             2025 Redesign by pladges student @AGS_ADP_Senior
           </div>
@@ -768,10 +761,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- WhatsApp Button -->
     <a
-      href="https://wa.me/+923287315641"
+      href="https://wa.me/923287315641"
       class="btn btn-success rounded-pill position-fixed d-flex align-items-center justify-content-center"
       style="
         bottom: 20px;

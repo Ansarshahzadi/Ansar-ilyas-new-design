@@ -62,3 +62,9 @@ a {
 .icon {
   margin: 5px;
 }
+
+
+.nav-link.active {
+  color: #0d6efd !important;
+  font-weight: bold;
+}
