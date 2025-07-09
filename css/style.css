@@ -63,8 +63,51 @@ a {
   margin: 5px;
 }
 
-
 .nav-link.active {
   color: #0d6efd !important;
   font-weight: bold;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image-wrapper img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.05);
+}
+
+.image-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(13, 110, 253, 0.6);
+  /* Bootstrap Primary */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.image-wrapper:hover .image-overlay {
+  opacity: 1;
+}
+
+.image-overlay p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
