@@ -19,7 +19,6 @@ section {
 
 .navbar-nav .nav-link.active {
   color: #0d6efd !important;
-  /* Bootstrap Primary */
   font-weight: bold;
 }
 .navbar {
